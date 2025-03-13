@@ -27,7 +27,8 @@ if __name__ == '__main__':
 	start_time = datetime(2013, 1, 1)
 
 	""" list of s_anp_p companies """
-	s_and_p = ['^NDX', '^RUT', '^DJI']
+	s_and_p = ['^DJI']
+	# s_and_p = ['^NDX', '^RUT', '^DJI']
 	# s_and_p = ['^SPX','MMM', 'ABT', 'ABBV', 'ABMD', 'ACN', 'ATVI', 'ADBE', 'AMD', 'AAP', 'AES', 'AFL', 'A', 'APD', 'AKAM', 'ALK', 'ALB', 
 	# 	   'ARE', 'ALGN', 'ALLE', 'LNT', 'ALL', 'GOOGL', 'GOOG', 'MO', 'AMZN', 'AMCR', 'AEE', 'AAL', 'AEP', 'AXP', 'AIG', 'AMT',
 	# 	   'AWK', 'AMP', 'ABC', 'AME', 'AMGN', 'APH', 'ADI', 'ANSS', 'ANTM', 'AON', 'AOS', 'APA', 'AAPL', 'AMAT', 'APTV', 'ADM',
@@ -58,31 +59,30 @@ if __name__ == '__main__':
 	# 	   'VTRS', 'V', 'VNO', 'VMC', 'WRB', 'WAB', 'WMT', 'WBA', 'DIS', 'WM', 'WAT', 'WEC', 'WFC', 'WELL', 'WST', 'WDC', 'WU', 'WRK', 'WY', 
 	# 	   'WHR', 'WMB', 'WLTW', 'WYNN', 'XEL', 'XLNX', 'XYL', 'YUM', 'ZBRA', 'ZBH', 'ZION', 'ZTS']
 
-	download_stock(s_and_p)		
-	# bad_names =[] #to keep track of failed queries
+	bad_names =[] #to keep track of failed queries
 
-	# """here we use the concurrent.futures module's ThreadPoolExecutor
-	# 	to speed up the downloads buy doing them in parallel 
-	# 	as opposed to sequentially """
+	"""here we use the concurrent.futures module's ThreadPoolExecutor
+		to speed up the downloads buy doing them in parallel 
+		as opposed to sequentially """
 
-	# #set the maximum thread number
-	# max_workers = 8
+	#set the maximum thread number
+	max_workers = 8
 
-	# workers = min(max_workers, len(s_and_p)) #in case a smaller number of stocks than threads was passed in
-	# with futures.ThreadPoolExecutor(workers) as executor:
-	# 	res = executor.map(download_stock, s_and_p)
+	workers = min(max_workers, len(s_and_p)) #in case a smaller number of stocks than threads was passed in
+	with futures.ThreadPoolExecutor(workers) as executor:
+		res = executor.map(download_stock, s_and_p)
 
 	
-	# """ Save failed queries to a text file to retry """
-	# if len(bad_names) > 0:
-	# 	with open('failed_queries.txt','w') as outfile:
-	# 		for name in bad_names:
-	# 			outfile.write(name+'\n')
+	""" Save failed queries to a text file to retry """
+	if len(bad_names) > 0:
+		with open('failed_queries.txt','w') as outfile:
+			for name in bad_names:
+				outfile.write(name+'\n')
 
-	# #timing:
-	# finish_time = datetime.now()
-	# duration = finish_time - now_time
-	# minutes, seconds = divmod(duration.seconds, 60)
-	# print('getSandP_threaded.py')
-	# print(f'The threaded script took {minutes} minutes and {seconds} seconds to run.')
-	# #The threaded script took 0 minutes and 31 seconds to run.
+	#timing:
+	finish_time = datetime.now()
+	duration = finish_time - now_time
+	minutes, seconds = divmod(duration.seconds, 60)
+	print('getSandP_threaded.py')
+	print(f'The threaded script took {minutes} minutes and {seconds} seconds to run.')
+	#The threaded script took 0 minutes and 31 seconds to run.
