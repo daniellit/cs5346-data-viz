@@ -124,3 +124,45 @@ limit 100;
         "19",  # FIGHT (wars, territorial disputes)
         "20"   # USE UNCONVENTIONAL MASS VIOLENCE (terrorism, coups)
     ]
+
+Quadclass + ActionGeo_type (country level) + country = USA, eventrootcode. note: i tried without the US country filter and actiongeo_type and had 20mio rows...
+
+SELECT 
+    PARSE_DATE('%Y%m%d', CAST(SQLDATE AS STRING)) AS event_date,
+    quadclass,  -- QuadClass: 1=Verbal Cooperation, 2=Material Cooperation, 3=Verbal Conflict, 4=Material Conflict
+    actiongeo_countrycode,
+    Eventrootcode,
+    COUNT(*) AS event_count,
+    SUM(NumMentions) AS TotalMentions,
+    sum(numsources) as Sources,
+    AVG(AvgTone) as AVGTONE,
+    sum(AvgTone*NumSources) as sum_tone_source,
+    sum(AvgTone*NumMentions) as sum_tone_mentions,
+    AVG(goldsteinscale) AS avg_goldstein,  -- Average event impact for the group
+    SUM(AvgTone * NumMentions) / SUM(NumMentions) AS MentionsWeightedAvgTone,
+    SUM(AvgTone * NumSources) / SUM(NumSources) as SourcesWeightedAvgTone,
+    SUM(AvgTone * NumMentions * NumSources) / SUM(NumMentions * NumSources) as MenSouWeightedAvgTone,
+    SUM(GoldsteinScale * NumMentions) / SUM(NumMentions) AS WeightedAvgGoldsteinScore
+    
+FROM gdelt-bq.gdeltv2.events
+WHERE 1=1
+and actiongeo_countrycode = 'US'  -- Filter for USA events
+and isrootevent = 1
+and actiongeo_type = 1 --1 country, 2 state, 3 city, 4 neighborhood (rare)
+  AND PARSE_DATE('%Y%m%d', CAST(SQLDATE AS STRING))
+      BETWEEN DATE('2013-01-01') AND DATE('2024-12-31')
+GROUP BY event_date, quadclass, eventrootcode, actiongeo_countrycode
+ORDER BY event_date DESC, quadclass, eventrootcode, actiongeo_countrycode
+--LIMIT 100
+
+
+
+
+
+
+
+
+
+
+
+
