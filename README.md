@@ -126,7 +126,7 @@ limit 100;
     ]
 
 Quadclass + ActionGeo_type (country level) + country = USA, eventrootcode. note: i tried without the US country filter and actiongeo_type and had 20mio rows...
-
+--to improve, can consider giving up daily data and move to weekly or monthly even if we want more granular fields like eventcode, or just to filter only for some event codes...
 SELECT 
     PARSE_DATE('%Y%m%d', CAST(SQLDATE AS STRING)) AS event_date,
     quadclass,  -- QuadClass: 1=Verbal Cooperation, 2=Material Cooperation, 3=Verbal Conflict, 4=Material Conflict
@@ -142,7 +142,8 @@ SELECT
     SUM(AvgTone * NumMentions) / SUM(NumMentions) AS MentionsWeightedAvgTone,
     SUM(AvgTone * NumSources) / SUM(NumSources) as SourcesWeightedAvgTone,
     SUM(AvgTone * NumMentions * NumSources) / SUM(NumMentions * NumSources) as MenSouWeightedAvgTone,
-    SUM(GoldsteinScale * NumMentions) / SUM(NumMentions) AS WeightedAvgGoldsteinScore
+    SUM(GoldsteinScale * NumMentions) / SUM(NumMentions) AS MentionsWeightedAvgGoldsteinScore
+    SUM(GoldsteinScale * NumSources) / SUM(NumSources) AS SourcesWeightedAvgGoldsteinScore
     
 FROM gdelt-bq.gdeltv2.events
 WHERE 1=1
