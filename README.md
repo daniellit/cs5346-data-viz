@@ -144,6 +144,7 @@ SELECT
     SUM(AvgTone * NumMentions * NumSources) / SUM(NumMentions * NumSources) as MenSouWeightedAvgTone,
     SUM(GoldsteinScale * NumMentions) / SUM(NumMentions) AS MentionsWeightedAvgGoldsteinScore
     SUM(GoldsteinScale * NumSources) / SUM(NumSources) AS SourcesWeightedAvgGoldsteinScore
+    SUM(GoldsteinScale * NumSources) AS sum_GoldsteinScore_Sources
     
 FROM gdelt-bq.gdeltv2.events
 WHERE 1=1
@@ -157,6 +158,10 @@ ORDER BY event_date DESC, quadclass, eventrootcode, actiongeo_countrycode
 --LIMIT 100
 
 
+other things i want to add
+more correlations - vs avg, vs weight by src, weight by mentions, weight by src*mentions?
+heatmap of correlations above across different windows 30,60,90
+check correlation of lead/lag also across wnidows
 
 
 
