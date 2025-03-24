@@ -161,9 +161,32 @@ ORDER BY event_date DESC, quadclass, eventrootcode, actiongeo_countrycode
 other things i want to add
 more correlations - vs avg, vs weight by src, weight by mentions, weight by src*mentions?
 heatmap of correlations above across different windows 30,60,90
-check correlation of lead/lag also across wnidows
+check correlation of lead/lag also across windows
 
 
+new gdelt data set cleaned, changed averages to weighted, set to rootevent and actiongeo US and geotype to country level
+SELECT
+    PARSE_DATE('%Y%m%d', CAST(SQLDATE AS STRING)) AS event_date,  -- Fixed date conversion
+    EventCode,
+    COUNT(*) AS event_count,
+    sum(AvgTone*NumSources) / sum(NumSources) AS average_tone,  -- Average tone for the EventCode per day, weighted by sources
+    sum(GoldsteinScale*NumSources) / sum(NumSources) AS average_goldstein,  -- Average Goldstein Scale for the EventCode per day, weighted by sources
+    1 as total_mentions,
+    SUM(NumSources) AS total_sources,
+    2 as total_articles,
+    sum(AvgTone*NumSources) as avgtonexsources, --for reaggregating
+    sum(GoldsteinScale*NumSources) as goldsteinxsources --for reaggregating
+FROM 
+    gdelt-bq.gdeltv2.events
+
+WHERE 
+    ActionGeo_CountryCode = 'US'
+    and actiongeo_type = 1
+    and isrootevent = 1
+    AND SQLDATE BETWEEN 20130101 AND 20241231  -- Filter for relevant time period
+
+GROUP BY
+    event_date, EventCode
 
 
 
