@@ -1,0 +1,59 @@
+Truncated Date,Event Name,Granularity
+2013-05-22,Taper Tantrum,Day
+2013-10-01,U.S. Debt Ceiling Crisis,Day
+2015-08-24,2015–2016 Market Selloff,Day
+2018-10-03,2018 Market Correction,Day
+2019-05-05,U.S.-China Trade War Escalation,Day
+2020-02-19,COVID-19 Market Crash,Day
+2020-04-01,Unemployment Peak (COVID-19),Day
+2020-04-20,Oil Price Crash,Day
+2020-08-18,S&P 500 Recovery Post-COVID,Day
+2021-04-01,Inflation Surge Begins,Day
+2021-11-15,U.S. Infrastructure Bill,Day
+2022-01-03,S&P 500 Record High (Pre-2022 Dip),Day
+2022-02-24,Russia-Ukraine War Begins,Day
+2022-03-16,Fed Rate Hikes Begin,Day
+2022-06-01,Inflation Peak,Day
+2022-06-13,2022 Market Correction,Day
+2023-06-08,End of 2022 Bear Market,Day
+2023-10-30,2023 Market Recovery,Day
+2024-02-19,S&P 500 All-Time High (2024),Day
+2024-12-18,Fed Rate Cut (Post-Inflation),Day
+2013-05-20,Taper Tantrum,Week
+2013-09-30,U.S. Debt Ceiling Crisis,Week
+2015-08-24,2015–2016 Market Selloff,Week
+2018-10-01,2018 Market Correction,Week
+2019-04-29,U.S.-China Trade War Escalation,Week
+2020-02-17,COVID-19 Market Crash,Week
+2020-03-30,Unemployment Peak (COVID-19),Week
+2020-04-20,Oil Price Crash,Week
+2020-08-17,S&P 500 Recovery Post-COVID,Week
+2021-03-29,Inflation Surge Begins,Week
+2021-11-15,U.S. Infrastructure Bill,Week
+2022-01-03,S&P 500 Record High (Pre-2022 Dip),Week
+2022-02-21,Russia-Ukraine War Begins,Week
+2022-03-14,Fed Rate Hikes Begin,Week
+2022-05-30,Inflation Peak,Week
+2022-06-13,2022 Market Correction,Week
+2023-06-05,End of 2022 Bear Market,Week
+2023-10-30,2023 Market Recovery,Week
+2024-02-19,S&P 500 All-Time High (2024),Week
+2024-12-16,Fed Rate Cut (Post-Inflation),Week
+2013-05-01,Taper Tantrum,Month
+2013-10-01,U.S. Debt Ceiling Crisis,Month
+2015-08-01,2015–2016 Market Selloff,Month
+2018-10-01,2018 Market Correction,Month
+2019-05-01,U.S.-China Trade War Escalation,Month
+2020-02-01,COVID-19 Market Crash,Month
+2020-04-01,"Oil Price Crash, Unemployment Peak (COVID-19)",Month
+2020-08-01,S&P 500 Recovery Post-COVID,Month
+2021-04-01,Inflation Surge Begins,Month
+2021-11-01,U.S. Infrastructure Bill,Month
+2022-01-01,S&P 500 Record High (Pre-2022 Dip),Month
+2022-02-01,Russia-Ukraine War Begins,Month
+2022-03-01,Fed Rate Hikes Begin,Month
+2022-06-01,"2022 Market Correction, Inflation Peak",Month
+2023-06-01,End of 2022 Bear Market,Month
+2023-10-01,2023 Market Recovery,Month
+2024-02-01,S&P 500 All-Time High (2024),Month
+2024-12-01,Fed Rate Cut (Post-Inflation),Month
