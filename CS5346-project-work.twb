@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 20251.25.0313.2002                               -->
-<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -13598,8 +13598,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='166' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='165' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='168' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='167' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='46625' id='5' is-fixed='true' name='Cumulative Returns of Major Indices: A Decade of Growth (2013–2024)' w='98400' x='800' y='1000'>
                   <layout-cache minheight='198' minwidth='166' type-h='scalable' type-w='scalable' />
                   <zone-style>
@@ -13697,8 +13697,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='74' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='77' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='76' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Return and FOMC Statement Sentiment Analysis Score' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -13805,8 +13805,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='62' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='61' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='63' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Correlation (2)' w='80300' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -13942,8 +13942,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='67' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='66' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='69' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='68' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='6125' id='63' type-v2='text' w='98400' x='800' y='1000'>
                   <formatted-text>
                     <run bold='true' fontsize='24'>Kernel Density Estimation</run>
@@ -14059,8 +14059,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='164' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='163' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='166' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='165' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8259' id='72' type-v2='text' w='98476' x='762' y='941'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Tableau Light' fontsize='15'>Volatility Spotlight: Best and Worst Daily and Monthly Returns of Major Indices (2013–2024)</run>
@@ -14349,8 +14349,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='236' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='235' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='238' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='237' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='97916' id='104' param='[com.tableau.addfilters].[0.0.0].[https://extensions.tableauusercontent.com/sandbox/add-filters/index.html]' type-v2='dashboard-object' w='84864' x='781' y='1042'>
                   <add-in add-in-id='com.tableau.addfilters' extension-url='https://extensions.tableauusercontent.com/sandbox/add-filters/index.html' extension-version='0.0.0' instance-id='12CDB6F9B5374DAA8BBF007105FFD137'>
                     <instance-settings />
@@ -14594,8 +14594,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='180' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='179' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='182' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='181' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='8823' id='8' mode='slider' name='Heatmap' param='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_237283468589559830:nk]' type-v2='filter' w='15619' x='83619' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -14719,8 +14719,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='123' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='122' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='125' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='124' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98118' id='3' is-fixed='true' name='Economic Indicators vs. Major Indices (2013–2024)' w='95428' x='3810' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -14913,8 +14913,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='123' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='122' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='125' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='124' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98476' id='3' is-fixed='true' name='Economic Indicators vs. Major Indices (2013–2024)' w='95428' x='3810' y='762'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -15095,8 +15095,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='134' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='133' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='136' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='135' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49057' id='8' is-fixed='true' name=' Volatility and FOMC Statement Sentiments Analysis Score' w='98476' x='762' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -15185,8 +15185,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='136' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='135' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='138' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='137' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98118' id='3' is-fixed='true' name='Distribution of SPX Daily Returns By Days Relative to FOMC Release (2013 - 2024)' w='98476' x='762' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -15318,8 +15318,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='235' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='234' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='237' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='236' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='7758' id='111' type-v2='text' w='98400' x='800' y='941'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Tableau Light' fontsize='15'>Interactive Market Overview: Index Price, Volume, and Economic Indicators Dashboard</run>
@@ -15614,8 +15614,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='234' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='233' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='236' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='235' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='165' h='4875' id='4' type-v2='dashboard-object' w='16894' x='1000' y='1125'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{839B399C-DDE4-4840-BA94-E8CC41B6B2B7}&quot;' button-type='text'>
                     <button-visual-state>
@@ -15932,8 +15932,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='236' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='235' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='238' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='237' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='6771' id='17' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='15625' x='83594' y='1042'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -16239,8 +16239,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='228' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='227' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='230' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='229' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='165' h='4875' id='3' type-v2='dashboard-object' w='16894' x='1000' y='1250'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{839B399C-DDE4-4840-BA94-E8CC41B6B2B7}&quot;' button-type='text'>
                     <button-visual-state>
@@ -16384,7 +16384,7 @@
             <zone h='88300' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98476' x='762' y='10900'>
               <flipboard active-id='23' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
-                  <story-point caption='Overview &amp; Design Provess' captured-sheet='slide' id='23' />
+                  <story-point caption='Overview &amp; Design Process' captured-sheet='slide' id='23' />
                   <story-point caption='Which index outperform or underperform the S&amp;P500?' captured-sheet='Which Index yields the best returns' id='1' />
                   <story-point caption='Which index was the most traded?' captured-sheet='Which Index is the most traded?' id='2' />
                   <story-point caption='What is the highest expected daily and monthly Risk or Reward trading the major indices?' captured-sheet='Dates and Periods of Interest' id='3' />
@@ -16668,8 +16668,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='132' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='131' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='134' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='133' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98118' id='3' is-fixed='true' name='Trading Activity Trends: Cumulative Volume of Major Indices (2013–2024)' w='98476' x='762' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -16741,8 +16741,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='135' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='134' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='137' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='136' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98118' id='3' is-fixed='true' name='Cumulative Returns of Major Indices: A Decade of Growth (2013–2024)' w='98400' x='800' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -16842,8 +16842,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='124' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='123' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='126' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='125' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8290' id='3' type-v2='text' w='98476' x='762' y='762'>
                   <formatted-text>
                     <run bold='true' fontsize='12'>GDELT Average Tone/Goldstein Scale-SPX Daily Returns By Lead/Lag Factor (2023 - 2024)</run>
@@ -16964,8 +16964,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='130' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='129' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='132' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='131' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='7765' id='3' type-v2='text' w='98476' x='762' y='941'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Tableau Light' fontsize='15'>How Global Events Affect SPX Returns</run>
@@ -17080,8 +17080,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='80' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='79' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='82' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='81' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98118' id='3' is-fixed='true' name='Corr_HeatMap1' w='98476' x='762' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -17138,8 +17138,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='17' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='19' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' forceUpdate='' h='98000' id='1' is-fixed='true' param='https://docs.google.com/presentation/d/e/2PACX-1vTwwF2gTxV57_SgWuz3ioeMbxxltfrbbVSfGpoNIcbRMDY6Oo5D84r1QDZFwkzTmQ/pub?start=false&amp;loop=false&amp;delayms=3000' type-v2='web' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -18234,7 +18234,7 @@
           </selection-collection>
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{CC7C2991-DC69-4A74-8408-452F00C88235}' />
     </window>
     <window class='worksheet' name='Hexbin'>
@@ -18361,7 +18361,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{C0B4B260-E052-440E-BA84-E940BBC322E4}' />
     </window>
     <window class='worksheet' name='Best and Worst Days by Daily Returns (2013 - 2024)'>
@@ -18560,7 +18560,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Visualising Spurious Correlations, Leading &amp; Lagging Indicators, and Regimes in Financial and Economic Data and World Events' tab-color='#dec77b'>
       <viewpoints />
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{4D9A83A2-5313-472E-8BDD-E59E75A860B5}' />
     </window>
     <window class='dashboard' name='slide'>
@@ -19012,10 +19012,10 @@
       </properties>
       <node-execution-subgraphs>
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='3fe1a642-bde5-469c-ad60-8207ca37d342' />
-        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='996db3c1-3edb-4ca3-9f5c-feebf5573889' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='11184abb-ca24-4f2d-89f3-6e3dff59f74c' />
-        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='9680fb6c-3fad-4825-a682-2fe27ecc948f' />
+        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='996db3c1-3edb-4ca3-9f5c-feebf5573889' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='c4ff52cf-b6c6-42be-935a-1241f5b3c2cf' />
+        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='9680fb6c-3fad-4825-a682-2fe27ecc948f' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='40e68b2f-8f1f-43be-92c3-fb8c2376ae31' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='29bc32e8-9b80-40de-865c-d6805d57a485' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='abda2a5e-dd9d-456b-8d25-da92ccf731f7' />
@@ -19025,19 +19025,19 @@
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='50ce332f-3168-460b-a2d4-900fd6f58e6b' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='6db80143-4207-4746-85e4-f57a3b19f763' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='0fdc5f0b-8752-495a-9b62-4700eee7c898' />
-        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='686319ec-fcf5-4c1b-b34e-4c353402ae6a' />
-        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='137df81e-27cb-47db-bc7a-63f22f18e152' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='67d97307-d91e-4842-89c3-c4c821ec097c' />
+        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='137df81e-27cb-47db-bc7a-63f22f18e152' />
+        <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='686319ec-fcf5-4c1b-b34e-4c353402ae6a' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='74236189-6e92-423c-9fa0-66ba469a8d20' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='b8153529-f66f-433b-8780-f1af96955dcf' />
         <pair execution-subgraph-guid='b8fd5e4d-e786-4500-ade9-0df1ebd1167a' node-guid='19e4bf96-d1c6-4a1a-989d-e44704bf5170' />
       </node-execution-subgraphs>
       <nodes>
         <single-value-field-node fieldname='[Parameters].[Parameter 1]' fieldname-input-guid='43e02512-ccd0-4595-9f1e-361ba3975424' node-guid='3fe1a642-bde5-469c-ad60-8207ca37d342' value-output-guid='21639caa-ed97-463e-9f84-a4e3cedec3fc' />
-        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_1504483809496322048:qk]' node-guid='996db3c1-3edb-4ca3-9f5c-feebf5573889' orientation='vertical' sheet-identifier='{9D76773D-1C99-4654-A6F7-E68B4F67011B}' title-input-guid='6d4484cd-6c92-48d2-81a6-9c3bbb636578' />
         <single-value-field-node fieldname='[Parameters].[Parameter 7]' fieldname-input-guid='e198ccb2-41b4-49a4-adb4-ae28b3f8081e' node-guid='11184abb-ca24-4f2d-89f3-6e3dff59f74c' value-output-guid='04c71512-d821-4b40-ad46-ccb7317a5760' />
-        <single-value-field-node fieldname='[Parameters].[Parameter 8]' fieldname-input-guid='ed414e02-8768-4f07-a27d-1e984f90ef1f' node-guid='9680fb6c-3fad-4825-a682-2fe27ecc948f' value-output-guid='53d1f980-d212-4c4e-924d-b9fd796a2e99' />
+        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_1504483809496322048:qk]' node-guid='996db3c1-3edb-4ca3-9f5c-feebf5573889' orientation='vertical' sheet-identifier='{9D76773D-1C99-4654-A6F7-E68B4F67011B}' title-input-guid='6d4484cd-6c92-48d2-81a6-9c3bbb636578' />
         <single-value-field-node fieldname='[Parameters].[Parameter 4]' fieldname-input-guid='a52954f9-c0c3-4cf3-b435-7d00cf7a0325' node-guid='c4ff52cf-b6c6-42be-935a-1241f5b3c2cf' value-output-guid='3aa8728e-6c7b-46d3-8edc-56492f349ba5' />
+        <single-value-field-node fieldname='[Parameters].[Parameter 8]' fieldname-input-guid='ed414e02-8768-4f07-a27d-1e984f90ef1f' node-guid='9680fb6c-3fad-4825-a682-2fe27ecc948f' value-output-guid='53d1f980-d212-4c4e-924d-b9fd796a2e99' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043966418951:qk]' node-guid='40e68b2f-8f1f-43be-92c3-fb8c2376ae31' orientation='vertical' sheet-identifier='{6F6BD800-8A20-4B97-98A6-A89A1A0E4B70}' title-input-guid='d1dad1e0-b160-484d-bb47-cccf05d4f5ff' />
         <dashboard-zone-visibility-node dashboard-identifier='{A936DF6D-A3EE-4B97-B570-55A668F2DFB7}' node-guid='29bc32e8-9b80-40de-865c-d6805d57a485' visibility-input-guid='cce426f1-fc13-4f26-9383-aa3aac67ad6a' zone-id='22' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Indicators (copy)_1785395836576677888:qk]' node-guid='abda2a5e-dd9d-456b-8d25-da92ccf731f7' orientation='vertical' sheet-identifier='{6F6BD800-8A20-4B97-98A6-A89A1A0E4B70}' title-input-guid='16b3173d-9131-4748-a9e9-07392c5605f6' />
@@ -19047,9 +19047,9 @@
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043958231041:qk]' node-guid='50ce332f-3168-460b-a2d4-900fd6f58e6b' orientation='vertical' sheet-identifier='{EC78911A-F456-4467-8669-F133DFA93E15}' title-input-guid='8d8148dd-88e1-49e3-aee2-9e4d65195c9b' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043958231041:qk]' node-guid='6db80143-4207-4746-85e4-f57a3b19f763' orientation='vertical' sheet-identifier='{9D76773D-1C99-4654-A6F7-E68B4F67011B}' title-input-guid='fee1ed9c-6518-4ab8-8dd2-4af67f4b8d30' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Indicators (copy)_1785395836576677888:qk]' node-guid='0fdc5f0b-8752-495a-9b62-4700eee7c898' orientation='vertical' sheet-identifier='{AA794A7C-7F4A-46A3-BDDF-C8BC24997E34}' title-input-guid='900b17e9-aa33-4cd6-9b45-b9127771e622' />
-        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Indicators (copy)_1785395836576677888:qk]' node-guid='686319ec-fcf5-4c1b-b34e-4c353402ae6a' orientation='vertical' sheet-identifier='{64A6BA6F-61A0-4D53-9C4E-914FC5787DB3}' title-input-guid='21f33cf1-925a-4209-a2d8-c2f442ac3e43' />
-        <dashboard-zone-visibility-node dashboard-identifier='{BD09288E-3BB0-4BE1-9919-AE36537CD642}' node-guid='137df81e-27cb-47db-bc7a-63f22f18e152' visibility-input-guid='2e751f10-cd42-4c4a-b4c9-be1375bddc37' zone-id='22' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_1010213750683058176:qk]' node-guid='67d97307-d91e-4842-89c3-c4c821ec097c' orientation='vertical' sheet-identifier='{67EBCCE8-1CBB-479D-AA7F-8BE26E4E16AD}' title-input-guid='8f5e2d46-f3ff-405a-adef-4639ad28a15e' />
+        <dashboard-zone-visibility-node dashboard-identifier='{BD09288E-3BB0-4BE1-9919-AE36537CD642}' node-guid='137df81e-27cb-47db-bc7a-63f22f18e152' visibility-input-guid='2e751f10-cd42-4c4a-b4c9-be1375bddc37' zone-id='22' />
+        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Indicators (copy)_1785395836576677888:qk]' node-guid='686319ec-fcf5-4c1b-b34e-4c353402ae6a' orientation='vertical' sheet-identifier='{64A6BA6F-61A0-4D53-9C4E-914FC5787DB3}' title-input-guid='21f33cf1-925a-4209-a2d8-c2f442ac3e43' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043966418951:qk]' node-guid='74236189-6e92-423c-9fa0-66ba469a8d20' orientation='vertical' sheet-identifier='{64A6BA6F-61A0-4D53-9C4E-914FC5787DB3}' title-input-guid='1c70efc1-3eea-43e9-810d-e4087da3aacc' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043958231041:qk]' node-guid='b8153529-f66f-433b-8780-f1af96955dcf' orientation='vertical' sheet-identifier='{64A6BA6F-61A0-4D53-9C4E-914FC5787DB3}' title-input-guid='6536c13c-3e5b-4fa5-b035-d0f577b796ff' />
         <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.1p5bmws0ryykye1blbrj21iw61q5].[none:Calculation_444449043966418951:qk]' node-guid='19e4bf96-d1c6-4a1a-989d-e44704bf5170' orientation='vertical' sheet-identifier='{AA794A7C-7F4A-46A3-BDDF-C8BC24997E34}' title-input-guid='39cad31d-20f4-4fa1-baa4-0915c50c22de' />
@@ -32163,63 +32163,60 @@
     </thumbnail>
     <thumbnail height='192' name='Visualising Spurious Correlations, Leading &amp; Lagging Indicators, and Regimes in Financial and Economic Data and World Events' width='192'>
       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
-      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
+      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
@@ -32227,7 +32224,10 @@
       QChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE
       0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChN
       AhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQA
-      oTQJQChNAhBKkwCE0iQAoTQJQCjt/wBI6ZHH09GbbwAAAABJRU5ErkJggg==
+      oTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBK
+      kwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJ
+      QChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE
+      0iQAoTQJQChNAhBKkwCE0iQAoTQJQCjtfwFsG5aubtaFjgAAAABJRU5ErkJggg==
     </thumbnail>
     <thumbnail height='192' name='Which Index is the most traded?' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
